@@ -45,7 +45,11 @@ DEBUG = (
     )
     == "True"
 )
-ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", "127.0.0.1, localhost").split(",")
+DEBUG = True
+# ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", "127.0.0.1, localhost").split(",")
+ALLOWED_HOSTS = [
+    "127.0.0.1, localhost:3000, https://ldn-central-frontend-app.herokuapp.com"
+]
 
 # Application definition
 
