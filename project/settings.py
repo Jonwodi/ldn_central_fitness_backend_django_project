@@ -45,7 +45,6 @@ DEBUG = (
     )
     == "True"
 )
-DEBUG = True
 ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", "127.0.0.1, localhost").split(",")
 
 
@@ -88,7 +87,7 @@ CSRF_COOKIE_SAMESITE = "none"
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
-    "https://ldn-central-frontend-app.herokuapp.com",
+    "https://Jonwodi.github.io",
 ]
 
 CORS_ALLOW_METHODS = [
