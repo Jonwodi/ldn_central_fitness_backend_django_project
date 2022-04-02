@@ -87,12 +87,12 @@ CSRF_COOKIE_SAMESITE = "none"
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
-    "https://jonwodi.github.io",
+    "https://londoncentralfitnessclub.com",
 ]
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
-    "https://jonwodi.github.io",
+    "https://londoncentralfitnessclub.com",
 ]
 
 CORS_ALLOW_HEADERS = [
