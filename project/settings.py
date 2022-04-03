@@ -91,13 +91,11 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
     "https://www.londoncentralfitnessclub.com",
-    "https://www.londonfitnessdjango.com",
 ]
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
     "https://www.londoncentralfitnessclub.com",
-    "https://www.londonfitnessdjango.com",
 ]
 
 
@@ -121,6 +119,10 @@ CORS_ALLOW_HEADERS = [
     "x-csrftoken",
     "x-requested-with",
 ]
+
+CORS_EXPOSE_HEADERS = (
+    "Access-Control-Allow-Origin: https://www.londoncentralfitnessclub.com"
+)
 
 CORS_ALLOW_CREDENTIALS = True
 
