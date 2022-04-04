@@ -83,7 +83,7 @@ CSRF_COOKIE_SECURE = True
 
 CSRF_COOKIE_SAMESITE = "none"
 
-# SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
+SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
 
 # SECURE_SSL_REDIRECT = True
 
@@ -91,7 +91,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
     "https://www.londoncentralfitnessclub.com",
-    "http://api.citybik.es",
+    "https://api.citybik.es",
 ]
 
 
@@ -99,7 +99,7 @@ CSRF_TRUSTED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
     "https://www.londoncentralfitnessclub.com",
-    "http://api.citybik.es",
+    "https://api.citybik.es",
 ]
 
 
